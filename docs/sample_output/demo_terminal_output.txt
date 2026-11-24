@@ -1,0 +1,38 @@
+Seeded: 5 templates, 10 contacts, 11 reminders
+
+>>> Simulated clock +10 min    -> planned=9 sent=6 failed=2 skipped=1
+
+>>> Simulated clock +2 hours   -> planned=1 sent=1 failed=0 skipped=0
+
+>>> Simulated clock +1 day 1h  -> planned=2 sent=2 failed=0 skipped=0
+
+>>> Simulated clock +2 days 1h -> planned=1 sent=1 failed=0 skipped=0
+
+>>> Simulated clock +8 days    -> planned=1 sent=1 failed=0 skipped=0
+
+NAME            EMAIL                           CAMPAIGN            STATUS     TRIES  NOTE                                  
+----------------------------------------------------------------------------------------------------------------------------
+Aarav Sharma    aarav.sharma@example.com        class_reminder      sent       0                                            
+Invalid User    invalid-email.example.com       class_reminder      failed     0      Invalid email address                 
+Kavya Nair      kavya.nair@example.com          class_reminder      skipped    0      Contact is unsubscribed               
+Priya Patel     priya.patel@example.com         class_reminder      sent       0                                            
+Rohan Mehta     rohan.mehta@example.com         payment_due         sent       0                                            
+Sneha Iyer      sneha.iyer@example.com          webinar_reminder    sent       0                                            
+Liam Walker     liam.walker@example.com         payment_due         failed     0      Template error: 'amount' is undefined 
+Liam Walker     liam.walker@example.com         task_deadline       sent       0                                            
+Vikram Singh    vikram.singh@example.com        payment_due         sent       0                                            
+Emily Carter    emily.carter@example.com        webinar_reminder    sent       0                                            
+Neha Gupta      neha.gupta@example.com          followup            sent       0                                            
+Liam Walker     liam.walker@example.com         task_deadline       sent       0                                            
+Liam Walker     liam.walker@example.com         task_deadline       sent       0                                            
+Vikram Singh    vikram.singh@example.com        payment_due         sent       0                                            
+
+=== SUMMARY ===
+Contacts: 10 (1 unsubscribed) | Templates: 5 | Active reminders: 1
+Messages: sent=11 | failed=2 | skipped=1 | total=14
+Delivery success rate: 84.6%
+Report saved:
+  outputs/email_report_20261121_095309.csv
+  outputs/summary_20261121_095309.json
+
+Open the generated emails in: outputs/outbox

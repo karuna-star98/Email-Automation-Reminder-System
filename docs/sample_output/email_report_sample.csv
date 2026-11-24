@@ -1,0 +1,15 @@
+message_id,recipient_name,recipient_email,campaign,subject,status,attempts,scheduled_at_utc,sent_at_utc,error
+c5b06c784620402393f3e0c0e4fe1707,Aarav Sharma,aarav.sharma@example.com,class_reminder,"Reminder: Python Class - Day 5 - Sat, 21 Nov 2026, 03:24 PM",sent,0,2026-11-21T09:54:09+00:00,2026-11-21T10:03:09+00:00,
+5df1b1bf353c4713b15fd29e57c3976f,Invalid User,invalid-email.example.com,class_reminder,(not rendered),failed,0,2026-11-21T09:54:09+00:00,,Invalid email address
+d8622b0d96864b75b0ab996103ce4e41,Kavya Nair,kavya.nair@example.com,class_reminder,(not rendered),skipped,0,2026-11-21T09:54:09+00:00,,Contact is unsubscribed
+0e58b82aafa54ade88dac7d73ad5ddc8,Priya Patel,priya.patel@example.com,class_reminder,"Reminder: Python Class - Day 5 - Sat, 21 Nov 2026, 03:24 PM",sent,0,2026-11-21T09:54:09+00:00,2026-11-21T10:03:09+00:00,
+0922bec05a1a420ba9c4a70201d855d1,Rohan Mehta,rohan.mehta@example.com,payment_due,"Payment reminder - INV-1042 (INR 4,500)",sent,0,2026-11-21T09:55:09+00:00,2026-11-21T10:03:09+00:00,
+50e539fcf24f4e5792f8947761d8059b,Sneha Iyer,sneha.iyer@example.com,webinar_reminder,Starting soon: Automating Work with Python,sent,0,2026-11-21T09:56:09+00:00,2026-11-21T10:03:09+00:00,
+edb2d766fb134651b0ded5a50c63efac,Liam Walker,liam.walker@example.com,payment_due,(not rendered),failed,0,2026-11-21T09:57:09+00:00,,Template error: 'amount' is undefined
+f82883c668d54efd8ec75c7fc22308be,Liam Walker,liam.walker@example.com,task_deadline,Task due: Submit the Week-2 assignment,sent,0,2026-11-21T09:58:09+00:00,2026-11-21T10:03:09+00:00,
+0552e74e1b8b43f4859361ae60383c34,Vikram Singh,vikram.singh@example.com,payment_due,"Payment reminder - INV-2001 (INR 2,000)",sent,0,2026-11-21T10:03:09+00:00,2026-11-21T10:03:09+00:00,
+f87d0b5d985d4705b0d2e79a0d72d8e0,Emily Carter,emily.carter@example.com,webinar_reminder,Starting soon: Automating Work with Python,sent,0,2026-11-21T10:53:09+00:00,2026-11-21T11:53:09+00:00,
+9f42e9d753814f9eaf9edf6bfbbfdbdb,Neha Gupta,neha.gupta@example.com,followup,"Quick follow-up, Neha Gupta",sent,0,2026-11-22T09:53:09+00:00,2026-11-22T10:53:09+00:00,
+ad3a27db1a8c4d8690c8cc1b31c02937,Liam Walker,liam.walker@example.com,task_deadline,Task due: Submit the Week-2 assignment,sent,0,2026-11-22T09:58:09+00:00,2026-11-22T10:53:09+00:00,
+0b7115e68f7e4dbbbb3867ac7b3ac086,Liam Walker,liam.walker@example.com,task_deadline,Task due: Submit the Week-2 assignment,sent,0,2026-11-23T09:58:09+00:00,2026-11-23T10:53:09+00:00,
+30224bd6312c467a9385a069b96ef04c,Vikram Singh,vikram.singh@example.com,payment_due,"Payment reminder - INV-2001 (INR 2,000)",sent,0,2026-11-28T10:03:09+00:00,2026-11-29T09:53:09+00:00,

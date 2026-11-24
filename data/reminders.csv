@@ -1,0 +1,12 @@
+contact_email,title,campaign,start,rrule,amount,invoice_no,due_date,topic,speaker,link,task,deadline
+aarav.sharma@example.com,Python Class - Day 5,class_reminder,+1m,,,,,,,https://meet.example.com/python-day5,,
+priya.patel@example.com,Python Class - Day 5,class_reminder,+1m,,,,,,,https://meet.example.com/python-day5,,
+rohan.mehta@example.com,Invoice INV-1042 due,payment_due,+2m,,"INR 4,500",INV-1042,30 Nov 2026,,,https://pay.example.com/inv-1042,,
+sneha.iyer@example.com,Webinar: Automate Work with Python,webinar_reminder,+3m,,,,,Automating Work with Python,Dr. Rao,https://webinar.example.com/py-auto,,
+emily.carter@example.com,Webinar: Automate Work with Python,webinar_reminder,+1h,,,,,Automating Work with Python,Dr. Rao,https://webinar.example.com/py-auto,,
+liam.walker@example.com,Week-2 Assignment,task_deadline,+5m,FREQ=DAILY;COUNT=3,,,,,,,Submit the Week-2 assignment,Friday 6 PM
+kavya.nair@example.com,Python Class - Day 5,class_reminder,+1m,,,,,,,https://meet.example.com/python-day5,,
+invalid-email.example.com,Python Class - Day 5,class_reminder,+1m,,,,,,,https://meet.example.com/python-day5,,
+vikram.singh@example.com,Fee installment,payment_due,+10m,FREQ=WEEKLY;COUNT=3,"INR 2,000",INV-2001,Every Friday,,,https://pay.example.com/inv-2001,,
+neha.gupta@example.com,Follow-up after demo,followup,+1d,,,,,,,https://calendly.example.com/neha,,
+liam.walker@example.com,Invoice INV-9999 (missing amount),payment_due,+4m,,,INV-9999,,,,,,

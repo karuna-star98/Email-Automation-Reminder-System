@@ -1,0 +1,19 @@
+# secrets
+.env
+*.pem
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# runtime data (generated)
+db/*.db
+db/*.db-*
+outputs/outbox/
+logs/*.log*
+# node
+node_modules/
+.next/
+apps/web/.env.local
+.DS_Store

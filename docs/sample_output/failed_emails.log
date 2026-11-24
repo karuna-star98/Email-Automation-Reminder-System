@@ -1,0 +1,3 @@
+2026-11-21 09:53:09 | WARNING | SKIPPED | to=kavya.nair@example.com | reason=unsubscribed
+2026-11-21 09:53:09 | ERROR   | FAILED | to=invalid-email.example.com | reason=invalid email address
+2026-11-21 09:53:09 | ERROR   | FAILED | to=liam.walker@example.com | reason=Template error: 'amount' is undefined

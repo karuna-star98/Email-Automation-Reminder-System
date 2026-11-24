@@ -1,0 +1,16 @@
+# Core engine (CLI, scheduler, worker, reports)
+pandas>=2.2
+Jinja2>=3.1
+Markdown>=3.6
+python-dateutil>=2.9
+tzdata>=2024.1          # timezone database (needed on Windows)
+
+# API + embedded scheduler
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+email-validator>=2.1
+APScheduler>=3.10,<4
+
+# Tests
+pytest>=8.0

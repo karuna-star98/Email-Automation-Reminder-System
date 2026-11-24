@@ -1,0 +1,11 @@
+name,email,timezone,unsubscribed
+Aarav Sharma,aarav.sharma@example.com,Asia/Kolkata,0
+Priya Patel,priya.patel@example.com,Asia/Kolkata,0
+Rohan Mehta,rohan.mehta@example.com,Asia/Kolkata,0
+Sneha Iyer,sneha.iyer@example.com,Asia/Kolkata,0
+Emily Carter,emily.carter@example.com,America/New_York,0
+Liam Walker,liam.walker@example.com,Europe/London,0
+Kavya Nair,kavya.nair@example.com,Asia/Kolkata,1
+Invalid User,invalid-email.example.com,Asia/Kolkata,0
+Vikram Singh,vikram.singh@example.com,Asia/Kolkata,0
+Neha Gupta,neha.gupta@example.com,Asia/Kolkata,0

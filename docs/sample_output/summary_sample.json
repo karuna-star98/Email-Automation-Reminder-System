@@ -1,0 +1,47 @@
+{
+  "by_status": {
+    "scheduled": 0,
+    "sending": 0,
+    "sent": 11,
+    "opened": 0,
+    "clicked": 0,
+    "failed": 2,
+    "skipped": 1
+  },
+  "total_messages": 14,
+  "delivered": 11,
+  "success_rate": 84.6,
+  "open_rate": 0.0,
+  "contacts": 10,
+  "unsubscribed": 1,
+  "active_reminders": 1,
+  "templates": 5,
+  "by_campaign": {
+    "class_reminder": {
+      "failed": 1,
+      "sent": 2,
+      "skipped": 1
+    },
+    "followup": {
+      "failed": 0,
+      "sent": 1,
+      "skipped": 0
+    },
+    "payment_due": {
+      "failed": 1,
+      "sent": 3,
+      "skipped": 0
+    },
+    "task_deadline": {
+      "failed": 0,
+      "sent": 3,
+      "skipped": 0
+    },
+    "webinar_reminder": {
+      "failed": 0,
+      "sent": 2,
+      "skipped": 0
+    }
+  },
+  "generated_at_utc": "2026-11-21T09:53:09+00:00"
+}
